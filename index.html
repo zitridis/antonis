@@ -214,35 +214,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script>
-    function applyTheme(theme) {
-      if (theme === 'auto') {
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        theme = prefersDark ? 'dark' : 'light';
-      }
-      document.documentElement.setAttribute('data-theme', theme);
-      localStorage.setItem('theme', theme);
-    }
-  
-    document.querySelector('.js-set-theme-light')?.addEventListener('click', (e) => {
-      e.preventDefault();
-      applyTheme('light');
-    });
-  
-    document.querySelector('.js-set-theme-dark')?.addEventListener('click', (e) => {
-      e.preventDefault();
-      applyTheme('dark');
-    });
-  
-    document.querySelector('.js-set-theme-auto')?.addEventListener('click', (e) => {
-      e.preventDefault();
-      applyTheme('auto');
-    });
-  
-    // Apply saved theme on page load
-    const savedTheme = localStorage.getItem('theme') || 'auto';
-    applyTheme(savedTheme);
-  </script>
+  <script src="theme-switcher.js"></script>
 
 
 </body>
