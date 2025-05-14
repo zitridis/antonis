@@ -27,3 +27,132 @@
   <title>Antonios Zitridis</title>
 </head>
 
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper">
+  <script src="wowchemy-init.min.1d309c6b3f55725f8869af2651084961.js"></script>
+
+  <div class="page-header">
+    <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+      <div class="container-xl">
+        <!-- Desktop Navbar Brand -->
+        <div class="d-none d-lg-inline-flex">
+          <a class="navbar-brand" href="/">Antonios Zitridis</a>
+        </div>
+
+        <!-- Mobile Navbar Brand -->
+        <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+          <a class="navbar-brand" href="/">Antonios Zitridis</a>
+        </div>
+
+        <!-- Navbar Toggler for Mobile -->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+          <ul class="navbar-nav d-md-inline-flex">
+            <li class="nav-item">
+              <a class="nav-link" href="/#about"><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/research"><span>Research</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/teaching"><span>Teaching & Mentoring</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/talks"><span>Talks & Travel</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#contact"><span>Contact</span></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme Switcher -->
+        <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+          <li class="nav-item dropdown theme-dropdown">
+            <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+              <i class="fas fa-moon" aria-hidden="true"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item js-set-theme-light"><span>Light</span></a>
+              <a href="#" class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+              <a href="#" class="dropdown-item js-set-theme-auto"><span>Automatic</span></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<div class="page-body">
+
+  <span class="js-widget-page d-none"></span>
+
+  <section id="about" class="home-section wg-about">
+    <div class="home-section-bg"></div>
+    <div class="container">
+      <div class="row">
+        <!-- Profile Section -->
+        <div class="col-12 col-lg-4">
+          <div id="profile">
+            <img class="avatar avatar-circle" width="270" height="378" src="20230927_MathDept_1799.jpg" alt="Antonios Zitridis">
+            <div class="portrait-title">
+              <h2>Antonios Zitridis</h2>
+            </div>
+            <ul class="network-icon" aria-hidden="true">
+              <!-- Social network icons can be added here -->
+            </ul>
+          </div>
+        </div>
+
+        <!-- About Text Section -->
+        <div class="col-12 col-lg-8">
+          <h1>Welcome to my webpage!</h1>
+          <div class="article-style">
+            <p>My name is Antonios Zitridis, and I am a 6th-year PhD student in mathematics at the University of Chicago. My advisor is Panagiotis E. Souganidis. I am originally from Greece and received a B.S. degree in mathematics from the National and Kapodistrian University of Athens.</p>
+            <p>Starting in Fall 2025, I will be a Byrne Assistant Professor in the Department of Mathematics at the University of Michigan, Ann Arbor, working within Professor Erhan Bayraktar's research group.</p>
+            <p>I am interested in Partial Differential Equations, Stochastic Analysis, and their applications. My PhD research is on interacting particle systems, McKean-Vlasov SDEs, stochastic optimal control, and mean field games.</p>
+            <i class="fas fa-download pr-1 fa-fw"></i> 
+            <a href="CV (Antonios Zitridis).pdf" target="_blank">Download my resumé</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<section id="contact" class="home-section wg-contact">
+  <div class="home-section-bg"></div>
+  <div class="container">
+    <div class="row">
+      <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+        <h1 class="mb-0">Contact</h1>
+      </div>
+      <div class="col-12 col-lg-8">
+        <ul class="fa-ul">
+          <li>
+            <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+            <span id="person-email">
+              <a href="mailto:zitridisa%20at%20uchicago%20dot%20edu">zitridisa at uchicago dot edu</a>
+            </span>
+          </li>
+          <li>Mail: The University of Chicago</li>
+          <li>Department of Mathematics 5801</li>
+          <li>S. Ellis Ave, 60637, Chicago - IL, USA</li>
+          <li>Office: Math-Stat 016</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</div>
+
+
+
+
