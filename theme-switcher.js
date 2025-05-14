@@ -7,10 +7,29 @@ function applyTheme(theme) {
   localStorage.setItem('theme', theme);
 }
 
-document.getElementById('btn-light').addEventListener('click', () => applyTheme('light'));
-document.getElementById('btn-dark').addEventListener('click', () => applyTheme('dark'));
-document.getElementById('btn-auto').addEventListener('click', () => applyTheme('auto'));
+// Attach event listeners to all buttons with these classes
+document.querySelectorAll('.js-set-theme-light').forEach(el => {
+  el.addEventListener('click', e => {
+    e.preventDefault();
+    applyTheme('light');
+  });
+});
 
-// On page load
+document.querySelectorAll('.js-set-theme-dark').forEach(el => {
+  el.addEventListener('click', e => {
+    e.preventDefault();
+    applyTheme('dark');
+  });
+});
+
+document.querySelectorAll('.js-set-theme-auto').forEach(el => {
+  el.addEventListener('click', e => {
+    e.preventDefault();
+    applyTheme('auto');
+  });
+});
+
+// Apply saved theme on page load
 const savedTheme = localStorage.getItem('theme') || 'auto';
 applyTheme(savedTheme);
+
