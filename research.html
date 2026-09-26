@@ -37,14 +37,13 @@
     }
   </style>-->
 
-  <!-- Wider text column: extends the right side only -->
+    <!-- Wider text column: extends into the right margin only -->
   <style>
-    @media (min-width: 1200px) {
-      .home-section .container {
-        width: auto;
+    @media (min-width: 1400px) {
+      .home-section .row > .col-lg-8 {
+        flex: 1 1 0;
         max-width: none;
-        margin-left: calc((100vw - 1140px) / 2);
-        margin-right: 2rem;
+        margin-right: -120px;
       }
     }
   </style>
